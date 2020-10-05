@@ -1,0 +1,22 @@
+# criar ambiente virtual
+python -m venv venv
+
+#ativar a venv
+venv\Scripts\activate
+
+#instalar o django
+pip install django
+
+django-admin startproject projeto1
+
+python manage.py startapp polls
+
+#ver os comandos
+python manage.py help
+
+
+python manage.py createsuperuser
+
+# para alterações
+python manage.py makemigrations
+python manage.py migrate
